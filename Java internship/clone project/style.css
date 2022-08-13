@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left img{
+    width: 40px;
+    height: 40px;
+}
+
+/*header:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}*/
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container{
+    padding: 0 10vw;
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+    background-color: #f2f2f2;
+}
+
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+
+.homeimg{
+    width: 80vw;
+    margin: 12px 0;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.searchBar{
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: right;
+    border-color: red;
+}
+
+.m2{
+    background-color: grey;
+}
+h2{
+    font-size: larger;
+    text-align: center;
+}
+h3{
+    font-size: small;
+    text-align: center;
+}
+
+iframe{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

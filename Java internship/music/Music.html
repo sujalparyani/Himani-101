@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".B1").click(function(){
+                $(".A1").slideToggle(500);
+                $(".I1").slideToggle(500);
+                $(".M1").slideToggle(500);
+            });
+        });
+        
+    </script>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .A1{
+            height: 400px;
+            width: 20%;
+            background-color: bisque;
+            position: relative;
+            border-radius: 50px;
+            margin-left: 600px;
+            display: none;
+        }
+        .I1{
+            display: none;
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+            position: relative;
+            left: 650px;
+            bottom: 380px;
+            animation: rotation 20s infinite linear;
+        }
+        @keyframes rotation{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        } 
+
+        .M1{
+            display: none;
+            width: 250px;
+            position: relative;
+            left: 620px;
+            bottom: 270px;
+        }
+        .B1{
+            background-color:gold;
+            color:saddlebrown;
+            height: 40px;
+            width: 6%;
+            border-radius: 30px;
+            margin-left: 710px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:mediumspringgreen ;" align="center"><ins>Music</ins></h1>
+    <br>
+    <button class="B1">Show/Hide </button>
+
+    <fieldset style="border-color: black;">
+        <div class="A1"></div>
+        <img class="I1" src="Mere_Desh_ki_Dharti_film.jpg" alt="button">
+        
+        <audio controls class="M1" >
+            <source src="Tip Top-(AmitMusic.In).mp3" type="audio/mpeg">
+        </audio>
+    </fieldset>
+    <br>
+
+</body>
+</html>
